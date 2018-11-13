@@ -1,0 +1,10 @@
+{
+    "name": "blockchain-decrypt",
+    "version": "0.0.1",
+    "private": true,
+    "main": "decrypt.js",
+    "dependencies": {
+        "pbkdf2": "^3.0.17",
+        "crypto": "^1.0.0"
+    }
+}

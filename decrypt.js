@@ -1,5 +1,5 @@
 // version 1 wallet
-var data = {
+/* var data = {
         "auth_type": 0,
         "real_auth_type": 0,
         "symbol_local": {
@@ -27,37 +27,37 @@ var data = {
         "serverTime": 1513954300510,
         "payload_checksum": "6f4dc6b7898148d910b722ffac56e374a3b059503bbbcac413e4d9f37c5b20f8",
         "sync_pubkeys": true
-}
+} */
 // version 3 wallet
-// var data = {
-//         "auth_type": 0,
-//         "real_auth_type": 0,
-//         "symbol_local": {
-//                 "symbol": "$",
-//                 "code": "USD",
-//                 "symbolAppearsAfter": false,
-//                 "name": "U.S. dollar",
-//                 "local": true,
-//                 "conversion": 8304.63390267
-//         },
-//         "clientTimeDiff": 153,
-//         "war_checksum": "50ccf62acf245222",
-//         "language": "en",
-//         "symbol_btc": {
-//                 "symbol": "BTC",
-//                 "code": "BTC",
-//                 "symbolAppearsAfter": true,
-//                 "name": "Bitcoin",
-//                 "local": false,
-//                 "conversion": 100000000.00000000
-//         },
-//         "extra_seed": "a815b8bc847e838188a07d7287ca8863ecfaed5cd445971eaa58e2eede569a0f9c612e05cd47e60dc6776f9c646146ae5485143cabe3ea8d567dc4c1d82bb917",
-//         "payload": "{\"pbkdf2_iterations\":5000,\"version\":3,\"payload\":\"9tWCD0YA3dkpbsecSaHWZd7cgGRoUQV7qHoHSBSz3GlTlpUP7Ir3LTgJSxcVzY\/O5ejYuK9iVp3C3xkSuvDyacaZEZh+DRHvZludC0+W+icNxNxuR+W1qsxRb31sHq7MRdRrppwoZkHT\/vG3fo6KGCHnfKxxDRGvkLcAnQbL5duSoALSJkyDNP6LE6sQpROH9PXlBb4TaQ1IjZbQ7jn2gQcxveA4L5199SyeFP6C6qpnM0xWgptIOAOj4vs5Pw8AwLp6fNivJrqNQTYkG0ACMoYggm9LSFGpRKysQB54+wKN2B0BhBARLt\/uKuOu2Ocvu8299K4lqva6h40izq018AZkULv2x3hJV9yyvNFRzk0lBRShuI77Kn9p9wqKzBILiPZpp\/7MAGCxY7dLbzn\/sSZonrTrKwZHsIXSGzJRot\/HLuAG0Tw9aDYh8HioZh+z+m4d\/LB8FHGSBFu+py6N9yoWyq9qWVGN8Jv6UzQyUivbSZahDbqS7Bqjiqys04xkkkNdrcoQduRGtmTyOA\/XeQDXiY+HeqT1ajcsKS4Tx7SDKpuspmBT+Py1Gl+iRPSv1mw3DSGAa+7mAJeLEpYGxKDMsOnFjWvY4oMiiDtO+bpK7Br5DdkpSBlX7zsxsstJ5xHKnyxwT6IlRe4IwAlAfirGr5Yu3cOEhHKzlJuB1sU25+THupT1eXKgBKosLyz9W8u9CyxpgnNnW\/AslIFXB77lwO0iPejQHisiyHqSbHKki+3+8Q9mf5QSxmRB2wATkV3Uj3BnmqGw2NyF4HTP\/29PJ6gX70q7MoO+50oPTrCu793E5deawJPG2NaM9xQZXY6JebxPIhS3Xdmr2PNUBUhJVdx83poN6UmQQJVccwZX70XEldEMzHVLiOo7\/pLf1nrNp\/WD+ShnNYeU7dNihZw7G0XQnmfdgY6tVuxrFgdNxKu4keLdk4u3JFgS54NOWLobLyXbA+jKZPkMkQBjtZ1Z\/wHb4TnK6HoSHzqGDR59U+kQEJRgmQOpLf3FFiCWQerMl8BSuYhdfxDcTBC9FeBC1fEbG\/oFdXFcL9W0GS9OMDo60NVfThWdAWameB1BTbwLPjla0eA4Zkdk2EtTwgLPyTu7movXeUpkkEXGz3uJA2xylkfPM\/ux3Hcx5oa66WgOE62d\/KuGKEeOZdDcUGFwowOUEuc0TotupuHgJwBs23WwiSF+9QJ6kqUv8C+aN3OMpyWYJwJZygDOHb7gSRaCHm7wx9MgYI9hSdN7Wg183gedFU5iaSjw1DeygTkjcBAMmLuqw+dqi69WJVMSlXMGlJwKerJtr68+K6OhDMwKMa\/0Qzypki4pX8VHDajI5cgzTlaIO6l0j2bVrxJzxXEIhGfZsf09aRbXEV4ripVhOxL++iCAsF6USkKKLoFuwZQmZWT+eVIhS5OksSG+qJ7piFkOMyCCNaA\/7qCXkSny0uV6JzqZrffBV\/tH8FTjAYlqebD1zhJtvWk357SaD675FSw5HOokioNtFa+uOaSae9KvEQsOySwNMIk66+Yc4ZjXTg83CCpexmNRlhBHiHK3ExcrQj1oa2ZuEcGlHAQjEg0BvTVlb3mK47SGoMLWYZnTu5uK6rTw8aesNqf9vRfsHfz8xax1yEs\/fL9QBEo8G0TKdud+AMq24JRUH\/jyQzGIRltdde87XdVz7sQcHl7e+QEfgyN3ssHaCG7ZmHUSIUshdS8TiisGXbPLJ7vNXwixKVIEovh++7uZvDY4Fe8P4KNYKs7iPe5l9YgSC0SMeIe4M3CWTVFm4FdkStPi1o4hP6Z0Xpwcc\/Ra7SjgET\/dljB3nSD45bpkvnwNHZDrV3KrDjf3AKmeurqpj3\/Fhk+rxJp9itoQc2kbAol9g\/O8RGcfUvRyJ+wKZ139jtY=\"}",
-//         "guid": "e746710b-ca3a-4d4c-92e8-4fc933ffd42e",
-//         "serverTime": 1513954922783,
-//         "payload_checksum": "6e97c996538ffdcacc8aa8694c9755662737b9b2b01a5bbbdb1cc99ee68e9416",
-//         "sync_pubkeys": false
-// }
+var data = {
+        "auth_type": 0,
+        "real_auth_type": 0,
+        "symbol_local": {
+                "symbol": "$",
+                "code": "USD",
+                "symbolAppearsAfter": false,
+                "name": "U.S. dollar",
+                "local": true,
+                "conversion": 8304.63390267
+        },
+        "clientTimeDiff": 153,
+        "war_checksum": "50ccf62acf245222",
+        "language": "en",
+        "symbol_btc": {
+                "symbol": "BTC",
+                "code": "BTC",
+                "symbolAppearsAfter": true,
+                "name": "Bitcoin",
+                "local": false,
+                "conversion": 100000000.00000000
+        },
+        "extra_seed": "a815b8bc847e838188a07d7287ca8863ecfaed5cd445971eaa58e2eede569a0f9c612e05cd47e60dc6776f9c646146ae5485143cabe3ea8d567dc4c1d82bb917",
+        "payload": "{\"pbkdf2_iterations\":5000,\"version\":3,\"payload\":\"9tWCD0YA3dkpbsecSaHWZd7cgGRoUQV7qHoHSBSz3GlTlpUP7Ir3LTgJSxcVzY\/O5ejYuK9iVp3C3xkSuvDyacaZEZh+DRHvZludC0+W+icNxNxuR+W1qsxRb31sHq7MRdRrppwoZkHT\/vG3fo6KGCHnfKxxDRGvkLcAnQbL5duSoALSJkyDNP6LE6sQpROH9PXlBb4TaQ1IjZbQ7jn2gQcxveA4L5199SyeFP6C6qpnM0xWgptIOAOj4vs5Pw8AwLp6fNivJrqNQTYkG0ACMoYggm9LSFGpRKysQB54+wKN2B0BhBARLt\/uKuOu2Ocvu8299K4lqva6h40izq018AZkULv2x3hJV9yyvNFRzk0lBRShuI77Kn9p9wqKzBILiPZpp\/7MAGCxY7dLbzn\/sSZonrTrKwZHsIXSGzJRot\/HLuAG0Tw9aDYh8HioZh+z+m4d\/LB8FHGSBFu+py6N9yoWyq9qWVGN8Jv6UzQyUivbSZahDbqS7Bqjiqys04xkkkNdrcoQduRGtmTyOA\/XeQDXiY+HeqT1ajcsKS4Tx7SDKpuspmBT+Py1Gl+iRPSv1mw3DSGAa+7mAJeLEpYGxKDMsOnFjWvY4oMiiDtO+bpK7Br5DdkpSBlX7zsxsstJ5xHKnyxwT6IlRe4IwAlAfirGr5Yu3cOEhHKzlJuB1sU25+THupT1eXKgBKosLyz9W8u9CyxpgnNnW\/AslIFXB77lwO0iPejQHisiyHqSbHKki+3+8Q9mf5QSxmRB2wATkV3Uj3BnmqGw2NyF4HTP\/29PJ6gX70q7MoO+50oPTrCu793E5deawJPG2NaM9xQZXY6JebxPIhS3Xdmr2PNUBUhJVdx83poN6UmQQJVccwZX70XEldEMzHVLiOo7\/pLf1nrNp\/WD+ShnNYeU7dNihZw7G0XQnmfdgY6tVuxrFgdNxKu4keLdk4u3JFgS54NOWLobLyXbA+jKZPkMkQBjtZ1Z\/wHb4TnK6HoSHzqGDR59U+kQEJRgmQOpLf3FFiCWQerMl8BSuYhdfxDcTBC9FeBC1fEbG\/oFdXFcL9W0GS9OMDo60NVfThWdAWameB1BTbwLPjla0eA4Zkdk2EtTwgLPyTu7movXeUpkkEXGz3uJA2xylkfPM\/ux3Hcx5oa66WgOE62d\/KuGKEeOZdDcUGFwowOUEuc0TotupuHgJwBs23WwiSF+9QJ6kqUv8C+aN3OMpyWYJwJZygDOHb7gSRaCHm7wx9MgYI9hSdN7Wg183gedFU5iaSjw1DeygTkjcBAMmLuqw+dqi69WJVMSlXMGlJwKerJtr68+K6OhDMwKMa\/0Qzypki4pX8VHDajI5cgzTlaIO6l0j2bVrxJzxXEIhGfZsf09aRbXEV4ripVhOxL++iCAsF6USkKKLoFuwZQmZWT+eVIhS5OksSG+qJ7piFkOMyCCNaA\/7qCXkSny0uV6JzqZrffBV\/tH8FTjAYlqebD1zhJtvWk357SaD675FSw5HOokioNtFa+uOaSae9KvEQsOySwNMIk66+Yc4ZjXTg83CCpexmNRlhBHiHK3ExcrQj1oa2ZuEcGlHAQjEg0BvTVlb3mK47SGoMLWYZnTu5uK6rTw8aesNqf9vRfsHfz8xax1yEs\/fL9QBEo8G0TKdud+AMq24JRUH\/jyQzGIRltdde87XdVz7sQcHl7e+QEfgyN3ssHaCG7ZmHUSIUshdS8TiisGXbPLJ7vNXwixKVIEovh++7uZvDY4Fe8P4KNYKs7iPe5l9YgSC0SMeIe4M3CWTVFm4FdkStPi1o4hP6Z0Xpwcc\/Ra7SjgET\/dljB3nSD45bpkvnwNHZDrV3KrDjf3AKmeurqpj3\/Fhk+rxJp9itoQc2kbAol9g\/O8RGcfUvRyJ+wKZ139jtY=\"}",
+        "guid": "e746710b-ca3a-4d4c-92e8-4fc933ffd42e",
+        "serverTime": 1513954922783,
+        "payload_checksum": "6e97c996538ffdcacc8aa8694c9755662737b9b2b01a5bbbdb1cc99ee68e9416",
+        "sync_pubkeys": false
+}
 
 var pbkdf2 = require('pbkdf2');
 var crypto = require('crypto');
@@ -125,7 +125,7 @@ var AES = {
                 try {
                         decipher = crypto.createDecipheriv(options.mode || AES.CBC, key, salt || "");
                 } catch (e) {
-                        console.log(e);
+                        //console.log(e);
                 }
                 decipher.setAutoPadding(!options.padding);
                 var decryptedBytes = Buffer.concat([decipher.update(dataBytes), decipher.final()]);
@@ -141,7 +141,7 @@ function pbkdf2f__(password, salt, iterations, keyLenBytes, algorithm) {
         try {
                 result = pbkdf2.pbkdf2Sync(password, salt, iterations, keyLenBytes, algorithm);
         } catch (e) {
-                console.log(e);
+                //console.log(e);
         }
         return result;
 }
@@ -163,7 +163,7 @@ function decryptDataWithPassword(data, password, iterations, options) {
                 var key = stretchPassword(password, salt, iterations, KEY_BIT_LEN);
                 res = decryptBufferWithKey(payload, iv, key, options);
         } catch (e) {
-                console.log(e);
+                //console.log(e);
         }
         return res;
 }
@@ -175,7 +175,7 @@ function stretchPassword(password, salt, iterations, keyLenBits) {
         try {
                 result = pbkdf2f__(password, saltBuffer, iterations, keyLenBytes, ALGO.SHA1);
         } catch (e) {
-                console.log(e);
+                //console.log(e);
         }
         return result;
 }
@@ -196,14 +196,14 @@ function decryptWalletV1(data, password) {
                         if (acc)
                                 return acc;
                         try {
-                                return JSON.parse(decrypt())
+                                return JSON.parse(decrypt());
                         } catch (e) {
-                                console.log(e);
+                                //console.log(e);
                                 return null;
                         }
                 }, null);
         } catch (e) {
-                console.log(e);
+                //console.log(e);
         }
 }
 
@@ -256,14 +256,15 @@ var counter = 0;
 var found = false;
 
 // I think my password is LittleMermaid
-var passswordAlphabet = ["Ll", "i", "t", "t", "l", "e", "Mm", "e", "r", "m", "a", "i", "d"];
+//var passswordAlphabet = ["Ll", "i", "t", "t", "l", "e", "Mm", "e", "r", "m", "a", "i", "d"];
+var passswordAlphabet = ["P","i","t","n","e","y","7","7","o@"];
 
-var limits = initLimits(strings);
-var current = initCurrent(strings);
+var limits = initLimits(passswordAlphabet);
+var current = initCurrent(passswordAlphabet);
 
 var done = false;
 fs.appendFile('tested.txt', Date() + ' - ', (err) => {
-        console.log("Error writing to tested.txt. " + err);
+        if (err) throw err;
 });
 
 /*
@@ -273,12 +274,12 @@ fs.appendFile('tested.txt', Date() + ' - ', (err) => {
 while (!done) {
         var password = "";
         for (var i = 0; i < limits.length; i++) {
-                var c = strings[i].slice(current[i], current[i] + 1);
+                var c = passswordAlphabet[i].slice(current[i], current[i] + 1);
                 if (c === "=") {
 
                         //password += strings[i].slice(current[i], current[i]+1);
                 } else {
-                        password += strings[i].slice(current[i], current[i] + 1);
+                        password += passswordAlphabet[i].slice(current[i], current[i] + 1);
                 }
         }
 
@@ -306,5 +307,6 @@ while (!done) {
 }
 
 
-fs.appendFile('tested.txt', Date() + ' : ' + strings + ' (' + counter + ') ' + '\n', (err) => {});
-console.log(counter);
+fs.appendFile('tested.txt', Date() + ' : ' + passswordAlphabet + ' (' + counter + ') ' + '\n', (err) => {
+        if (err) throw err;
+});
